@@ -1,0 +1,89 @@
+.dress-heading {
+    font-weight: 600;
+}
+
+.breadcrumb-c>span {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.breadcrumb-c {
+    font-weight: 600;
+}
+
+
+.img-leftbar {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+.img-leftbar>img {
+    margin-bottom: 20px;
+}
+
+.img-rightbar>img {
+    max-width: 440px;
+}
+
+.product-name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.price-box {
+    display: flex;
+    align-items: center;
+}
+
+.product-dprice {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product-mrp {
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: #aaa
+}
+
+.discount {
+    color: red;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.product-h1 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.lavender {
+    background-color: #BB84C5;
+    height: 36px;
+    width: 36px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+.size-selector {
+    border: 1px solid #000;
+    border-radius: 100px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 10px 0;
+}
+
+.button-box {
+    margin-top: 30px;
+}
+
+.ins-gal{
+    display: flex;
+    justify-content: space-between;
+}

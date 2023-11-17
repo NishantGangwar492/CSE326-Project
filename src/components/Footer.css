@@ -1,0 +1,105 @@
+.my-footer {
+    background-color: #3F3D3D;
+    color: #fff;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+}
+
+.input-email {
+    padding: 7.5px 8px;
+    width: 300px;
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+.btn-search {
+    position: absolute;
+    top: 2.5px;
+    right: 3px;
+}
+
+.section-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link-item {
+    display: block;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.footer-middle {
+    text-align: center;
+}
+
+.para-1 {
+    max-width: 515px;
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.para-1-subtext {
+    font-weight: 200;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.avl-text {
+    text-align: center;
+}
+
+.countries-pan {
+    display: flex;
+    justify-content: center;
+}
+
+.countries-img {
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.hr-style {
+    background-color: #fff ;
+    height: 1px;
+    margin: 23px 0;
+}
+
+.hr-style::-webkit-tap-highlight-color {
+    color: #fff
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.social-media-item{
+    margin: 18px;
+}
+
+.copyright-details{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.copyright-details > div{
+    margin: 12px;
+}
