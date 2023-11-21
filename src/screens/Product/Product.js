@@ -35,17 +35,22 @@ import Footer from '../../components/Footer'
 const Product = () => {
     return (
         <>
-            <Navbar />
             <section className='container'>
-                <p className='py-5 dress-heading'>
+                <p className='py-5 dress-heading sm-none'>
                     Spring Dresses
                 </p>
-                <p className='pb-5 breadcrumb-c'>
+                <p className='py-3 fs-5 dress-heading lg-none'>
+                    Spring Dresses
+                </p>
+                <p className='pb-5 breadcrumb-c sm-none'>
+                    Home <span>|</span> Dresses <span>|</span> Spring Dresses <span>|</span> Stand Out Green Marble Sheer Mesh Bodycon Mini Dress
+                </p>
+                <p className=' breadcrumb-c lg-none'>
                     Home <span>|</span> Dresses <span>|</span> Spring Dresses <span>|</span> Stand Out Green Marble Sheer Mesh Bodycon Mini Dress
                 </p>
                 <div>
                     <Row>
-                        <Col lg={2}>
+                        <Col lg={2} className='sm-none'>
                             <div className='img-leftbar'>
                                 <img src={C1} />
                                 <img src={C2} />
@@ -94,8 +99,11 @@ const Product = () => {
                                         S
                                     </div>
                                 </p>
-                                <p className='button-box'>
+                                <p className='button-box sm-none'>
                                     <Button variant="contained" style={{ color: "#fff", background: "#000" }}>ADD TO CART</Button>
+                                </p>
+                                <p className='lg-none'>
+                                    <Button variant="contained" style={{ color: "#fff", background: "#000", width: '100%', fontSize: 16 }}>ADD TO CART</Button>
                                 </p>
                                 <p>
                                     Free shipping over INR499 Order
@@ -105,7 +113,7 @@ const Product = () => {
                     </Row>
                 </div>
             </section>
-            <section className='container py-5'>
+            <section className='container py-5 sm-none'>
                 <div
                     style={{
                         fontSize: 20,
@@ -121,7 +129,23 @@ const Product = () => {
                     <img src={I6} />
                 </div>
             </section>
-            <section className='insta-gallery'>
+            <section className='container py-5 lg-none'>
+                <div
+                    style={{
+                        fontSize: 20,
+                        fontWeight: 600,
+                    }}
+                >SIMILAR ITEMS</div>
+                <div className='ins-gal-m py-5'>
+                    <img src={I1} />
+                    <img src={I2} />
+                    <img src={I3} />
+                    <img src={I4} />
+                    <img src={I5} />
+                    <img src={I6} />
+                </div>
+            </section>
+            <section className='insta-gallery sm-none'>
                 <div className='p-4 text-center'
                     style={{
                         fontWeight: 500,
@@ -146,6 +170,101 @@ const Product = () => {
                                 <img src={Gal9} />
                                 <img src={Gal10} />
                             </div>
+                        </div>
+                    </div>
+                    <p>
+                        TAG US TO GET A CHANCE TO GET FEATURED
+                    </p>
+                </div>
+            </section>
+            <section className='insta-gallery lg-none'>
+                <div className='p-3 text-center'
+                    style={{
+                        fontWeight: 500,
+                    }}
+                >
+                    <p>
+                        FOLLOW US ON INSTAGRAM
+                    </p>
+                    <div className='my-4'>
+                        <div className='container'>
+                            <div className='insta-gallery-mobile'>
+                                <img src={Gal1}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                    }}
+                                />
+                                <img src={Gal2}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal3}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal4}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal5}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal6}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal7}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal8}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal9}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal10}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div style={{
+                            fontWeight: 400,
+                            marginTop: 10
+                        }}>
+                            Scroll right to view more
                         </div>
                     </div>
                     <p>

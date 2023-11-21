@@ -1,6 +1,6 @@
 .my-footer {
-    background-color: #3F3D3D;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #000;
 }
 
 .input-box {
@@ -76,7 +76,7 @@
 }
 
 .hr-style {
-    background-color: #fff ;
+    background-color: #000;
     height: 1px;
     margin: 23px 0;
 }
@@ -85,21 +85,21 @@
     color: #fff
 }
 
-.social-media-icons{
+.social-media-icons {
     display: flex;
     justify-content: center;
     padding: 25px;
 }
 
-.social-media-item{
+.social-media-item {
     margin: 18px;
 }
 
-.copyright-details{
+.copyright-details {
     font-weight: 200;
     font-size: 14px;
 }
 
-.copyright-details > div{
+.copyright-details>div {
     margin: 12px;
 }

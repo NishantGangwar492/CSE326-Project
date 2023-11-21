@@ -1,5 +1,5 @@
 .shopping-description>p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     margin-bottom: 26px;
 }
@@ -122,10 +122,10 @@
 }
 
 .insta-gallery {
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
-    background-color: #3F3d3d;
-    color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color: #000;
 }
 
 .gal-box {
@@ -137,4 +137,24 @@
 
 .gal-box>img {
     box-shadow: 1px 2px 21px rgba(0, 0, 0, 0.24);
+}
+
+.insta-gallery-mobile{
+    display: flex;
+    overflow-x: scroll !important;
+    min-width: 300px;
+}
+
+.flex-show-mobile{
+    display: flex;
+    min-width: 300px;
+    overflow-x: scroll !important;
+} 
+
+.flex-show-mobile > img{
+    min-width:  145px !important;
+    height: 210px !important;
+    margin-right: 10px;
+    margin-left: 10px !important;
+    display:  block !important;
 }

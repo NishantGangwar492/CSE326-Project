@@ -6,4 +6,106 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 2560px) {
+  .sm-none {
+    display: block;
+  }
+
+  .lg-none {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .sm-none {
+    display: none;
+  }
+
+  .lg-none {
+    display: block;
+  }
+
+  .logo {
+    font-size: 21px !important;
+  }
+
+  .hero-img {
+    height: 500px !important;
+  }
+
+  .rite-box {
+    height: 350px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+  }
+
+  .input-text-box {
+    margin-top: 10px;
+  }
+
+  .shopping-description>p {
+    font-weight: 500;
+    font-size: 12px !important;
+    margin-bottom: 26px;
+  }
+
+  .hero-img-4, .hero-img-3, .hero-img-2 {
+    height: 400px !important;
+  }
+
+  .text-box-3 {
+    height: 400px !important;
+  }
+
+  .product-name{
+    margin-top: 20px;
+  }
+
+  .img-rightbar>img {
+    max-height: 440px;
+    width: 100vw;
+}
+}
+
+@media (max-width: 991px) {
+  .img-box1>img {
+    max-height: 600px !important;
+  }
+}
+@media (max-width: 850px) {
+  .img-box1>img {
+    max-height: 500px !important;
+  }
+}
+@media (max-width: 725px) {
+  .img-box1>img {
+    max-height: 400px !important;
+  }
+}
+@media (max-width: 575px) {
+  .img-box1>img {
+    max-height: 300px !important;
+  }
+}
+@media (max-width: 450px) {
+  .img-box1>img {
+    max-height: 250px !important;
+  }
 }

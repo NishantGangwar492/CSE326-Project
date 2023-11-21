@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='navbar-bg'>
             <div className='container c-navbar'>
                 <div className='logo'>
-                    <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+                    <Link to="/" style={{ color: "black", textDecoration: "none" }}>
                         THREADBARE
                     </Link>
                 </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='side-navbar-item'>
-                        <Link to='/login' style={{ color: "white", textDecoration: 'none' }}>
+                        <Link to='/login' style={{ color: "black", textDecoration: 'none' }}>
                             Login
                         </Link>
                     </div>

@@ -17,6 +17,7 @@ const Footer = () => {
                     <div className='input-text-box'>
                         <div>
                             <input className='input-email' />
+      
                         </div>
                         <div>
                             <button className='btn btn-dark btn-search'>SUBMIT</button>
@@ -26,7 +27,7 @@ const Footer = () => {
                 <br />
                 <br />
                 <section className='section-link'>
-                    <div>
+                    <div className='sm-none'>
                         <div>INFO</div>
                         <br />
                         <div>
@@ -54,7 +55,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='sm-none'>
                         <div>COMPANY</div>
                         <br />
                         <div>

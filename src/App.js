@@ -7,6 +7,7 @@ import Product from './screens/Product/Product';
 import SignUp from './screens/login/Signup';
 import SignIn from './screens/login/Login';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavbarMobile from './components/NavbarMobile';
 
 function App() {
 
@@ -15,18 +16,20 @@ function App() {
 
 
   return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/product" element={<Product />} />
-        </Routes>
-        {/* <Home /> */}
-        {/* <Product /> */}
-        {/* <SignUp /> */}
-        {/* <SignIn /> */}
-      </BrowserRouter >
+    <BrowserRouter>
+      <div className='sm-none'>
+        <Navbar />
+      </div>
+      <div className='lg-none'>
+        <NavbarMobile />
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/product" element={<Product />} />
+      </Routes>
+    </BrowserRouter >
   );
 }
 

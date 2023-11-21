@@ -87,3 +87,14 @@
     display: flex;
     justify-content: space-between;
 }
+.ins-gal-m{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px !important;
+    overflow-x: scroll !important;
+}
+
+.ins-gal-m > img{
+    min-width: 130px !important;
+    margin-right: 10px;
+}

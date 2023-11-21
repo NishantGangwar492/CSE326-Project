@@ -39,7 +39,6 @@ const Home = () => {
 
     return (
         <>
-            <Navbar />
             <section className='hero-img'
                 style={{ height: height }}
             >
@@ -71,7 +70,7 @@ const Home = () => {
                             </div>
                             <div className='img-box-text'>
                                 <div className='img-box-text1'>Spring Dresses</div>
-                                <div className='img-box-text2'>Now Blooming : Springtime shades and prints </div>
+                                <div className='img-box-text2'>Springtime shades and prints </div>
                             </div>
                         </Link>
                     </div>
@@ -167,7 +166,7 @@ const Home = () => {
                     </div>
                 </Container>
             </section>
-            <section className='p-5'>
+            <section className='p-5 sm-none'>
                 <div className='flex-show'>
                     <div>
                         <img src={FlexImg1} />
@@ -189,7 +188,17 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='insta-gallery'>
+            <section className='p-4 lg-none'>
+                <div className='flex-show-mobile'>
+                    <img src={FlexImg1} />
+                    <img src={FlexImg2} />
+                    <img src={FlexImg3} />
+                    <img src={FlexImg4} />
+                    <img src={FlexImg5} />
+                    <img src={FlexImg6} />
+                </div>
+            </section>
+            <section className='insta-gallery sm-none'>
                 <div className='p-4 text-center'
                     style={{
                         fontWeight: 500,
@@ -214,6 +223,101 @@ const Home = () => {
                                 <img src={Gal9} />
                                 <img src={Gal10} />
                             </div>
+                        </div>
+                    </div>
+                    <p>
+                        TAG US TO GET A CHANCE TO GET FEATURED
+                    </p>
+                </div>
+            </section>
+            <section className='insta-gallery lg-none'>
+                <div className='p-3 text-center'
+                    style={{
+                        fontWeight: 500,
+                    }}
+                >
+                    <p>
+                        FOLLOW US ON INSTAGRAM
+                    </p>
+                    <div className='my-4'>
+                        <div className='container'>
+                            <div className='insta-gallery-mobile'>
+                                <img src={Gal1}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                    }}
+                                />
+                                <img src={Gal2}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal3}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal4}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal5}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal6}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal7}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal8}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal9}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                                <img src={Gal10}
+                                    style={{
+                                        minHeight: 175,
+                                        minWidth: 155,
+                                        marginLeft: 15
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div style={{
+                            fontWeight: 400,
+                            marginTop: 10
+                        }}>
+                            Scroll right to view more
                         </div>
                     </div>
                     <p>
