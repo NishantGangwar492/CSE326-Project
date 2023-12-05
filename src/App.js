@@ -11,10 +11,6 @@ import NavbarMobile from './components/NavbarMobile';
 
 function App() {
 
-
-
-
-
   return (
     <BrowserRouter>
       <div className='sm-none'>
